@@ -792,3 +792,14 @@ input[type=date], input[type=text], input[type=email], input[type=file], input[t
 .ocultar{
     display: none;
 }
+
+
+
+/* Efecto de zoom en imágenes */
+.card img, #top-icons img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img:hover, #top-icons img:hover {
+    transform: scale(1.1);
+}
